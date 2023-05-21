@@ -1,3 +1,24 @@
+## Authencation-Laravel-Example
+- **Description:** Xác thực API sử dụng JWT (lib: tymon/jwt-auth)
+- **Run CMD:**
+  - Config file .env
+  - composer update
+  - php artisan cache:clear
+  - php artisan config:cache
+  - php artisan key:genernate
+  - php artisan migrate
+  - php artisan db:seender
+  - php artisan db:seed
+  - php artisan serve
+- **Test:**
+  - Login:
+  ![Login](https://github.com/buiquanghieu2910/Laravel-Example/blob/master/images/authencation-laravel-example/login.png)
+  - No token:
+  ![No token](https://github.com/buiquanghieu2910/Laravel-Example/blob/master/images/authencation-laravel-example/no-token.png)
+  - Access token:
+  ![No token](https://github.com/buiquanghieu2910/Laravel-Example/blob/master/images/authencation-laravel-example/access-token.png)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
